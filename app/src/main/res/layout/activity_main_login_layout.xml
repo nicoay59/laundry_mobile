@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainLoginLayout"
+    android:background="#f1f8fc">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        tools:context=".MainLoginLayout"
+        android:background="#f1f8fc">
+    <!-- Judul -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clean Laundry"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#C88277"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laundry Management System"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#4a3837"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"/>
+
+    <!-- Gambar -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/clean_laundry"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+    <!-- Input Username -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Username / Email"
+        android:tooltipText="Masukkan Username / Email Anda"
+        android:inputType="textPersonName" />
+
+    <!-- Input Password -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:tooltipText="Masukkan Password Anda"
+        android:inputType="textPassword" />
+
+    <!-- Tombol LOG IN -->
+    <Button
+        android:id="@+id/loginDashboard"
+        style="@style/button_LOGIN_BiruTua">
+    </Button>
+
+    <!-- Tombol REGISTER -->
+   <Button
+       android:id="@+id/register"
+        style="@style/button_REGISTER_pink">
+   </Button>
+
+
+    <!-- Text Link Lupa Password -->
+    <TextView
+        android:id="@+id/lupaPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lupa Password?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#4a3837"
+        />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

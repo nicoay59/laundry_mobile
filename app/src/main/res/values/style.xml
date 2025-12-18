@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button_LOGIN_BiruTua">
+        <item
+            name="android:layout_width">match_parent</item>
+        <item
+            name="android:layout_height">wrap_content</item>
+        <item name="android:text">MASUK</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#53666e</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <style name="button_CANCEL_MerahTua">
+        <item
+            name="android:layout_width">match_parent</item>
+        <item
+            name="android:layout_height">wrap_content</item>
+        <item name="android:text">BATAL</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#b22222</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <style name="button_REGISTER_pink">
+        <item
+            name="android:layout_width">match_parent</item>
+        <item
+            name="android:layout_height">wrap_content</item>
+        <item name="android:text">DAFTAR</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#C88277</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f1f8fc">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clean Laundry"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="#C88277"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Subjudul -->
+    <TextView
+        android:id="@+id/tvSubJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laundry Management System"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#4a3837"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@id/tvJudul"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Keterangan -->
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lengkapi data anda dibawah ini"
+        android:textSize="20sp"
+        android:textColor="#4a3837"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@id/tvSubJudul"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tvDesc"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:layout_below="@id/tvNama"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvNik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIK:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/edtNama"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:layout_below="@id/tvNik"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/edtNik"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@id/tvEmail"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/inputTanggalLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Lahir (DDMMYYYY)"
+        android:inputType="date"
+        android:layout_below="@id/tvTanggalLahir"
+        android:layout_marginTop="8dp"/>
+
+
+    <!-- Tombol Registrasi -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR"
+        android:textColor="@color/white"
+        android:background="#C88277"
+        android:layout_below="@id/inputTanggalLahir"
+        android:layout_marginTop="25dp"/>
+
+    <!-- OUTPUT -->
+    <TextView
+        android:id="@+id/tvOutputDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

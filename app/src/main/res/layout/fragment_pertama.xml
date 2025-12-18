@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentPertama">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#f1f8fc">
+
+        <!-- ====== DESKRIPSI APLIKASI ====== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <!-- Judul -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clean Laundry"
+                android:textSize="35sp"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textColor="#C88277"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laundry Management System"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textColor="#4A2E2A"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"/>
+
+            <!-- Gambar -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                android:layout_marginTop="10dp"
+                tools:srcCompat="@drawable/clean_laundry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat datang di aplikasi Clean Laundry, ini adalah versi demo untuk kebutuhan UTS Mata Kuliah Pemograman Aplikasi Mobile."
+                android:textSize="14sp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clean Laundry sebuah aplikasi yang digunakan untuk memanajemen bisnis laundry."
+                android:textSize="14sp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fitur:"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Multi Outlet atau Cabang\n- Support laundry kiloan maupun satuan\n- Bisa online maupun offline\n- Daftar Keanggotan\n- Manajemen Pesanan Laundry"
+                android:paddingTop="8dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Dian P"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:textSize="15sp"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
